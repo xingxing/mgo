@@ -2668,7 +2668,6 @@ type pipeCmdCursor struct {
 //     http://docs.mongodb.org/manual/applications/aggregation
 //     http://docs.mongodb.org/manual/tutorial/aggregation-examples
 //
-
 func (c *Collection) Pipe(pipeline interface{}) *Pipe {
 	session := c.Database.Session
 	session.m.RLock()

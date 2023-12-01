@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/globalsign/mgo/bson"
+	"github.com/xingxing/mgo/bson"
 )
 
 // Bulk represents an operation that can be prepared with several
